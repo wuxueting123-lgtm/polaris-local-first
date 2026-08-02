@@ -12,6 +12,9 @@ import './app/bootstrap/nativeShellBootstrap';
 import './styles/tokens.css';
 import './styles/base.css';
 
+typescript
+import { initMoodSkinObserver } from './stores/moodSkinStore';
+
 installGlobalClientErrorLogging();
 installClientDiagnosticsReporter();
 // Choose the store LocalData backend before any store hydrates or persists: native SQLite when
@@ -35,3 +38,5 @@ ReactDOM.createRoot(rootElement!).render(
   </React.StrictMode>
 );
 bootRescueSurface.watchReactRoot();
+
+initMoodSkinObserver();
