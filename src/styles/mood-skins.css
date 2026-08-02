@@ -1,0 +1,138 @@
+/* ── Mood Skins ── */
+/* 5 套情绪皮肤：rage / desire / vuoto / moonlight / serenity */
+/* 通过 body[data-mood-skin='xxx'] 激活，覆盖 tokens.css 变量 */
+
+/* ═══ Rage ─ 黑底红字 ═══ */
+body[data-mood-skin='rage'] {
+  --bg: #0a0a0a;
+  --bg-secondary: #121010;
+  --bg-tertiary: #1a1515;
+  --warm-bg: #0e0a0a;
+  --warm-bg-secondary: #161010;
+  --warm-text: #e8d0d0;
+  --warm-text-secondary: #c8a8a8;
+  --warm-accent: #cc3333;
+  --warm-accent-muted: rgba(200, 50, 50, 0.18);
+  --warm-border: rgba(180, 60, 60, 0.25);
+  --cool-bg: #0c0c0f;
+  --cool-bg-secondary: #141418;
+  --cool-text: #d0d0d8;
+  --cool-text-secondary: #a0a0a8;
+  --cool-accent: #c05050;
+  --cool-accent-muted: rgba(180, 60, 60, 0.15);
+  --cool-border: rgba(150, 50, 50, 0.22);
+  --card-bg: #161212;
+  --card-shadow: 0 1px 4px rgba(200, 40, 40, 0.12);
+  --bubble-assistant-bg: #1a1414;
+  --bubble-assistant-border: rgba(200, 40, 40, 0.32);
+  --bubble-user-bg: #1e1212;
+  --bubble-user-border: rgba(200, 50, 50, 0.28);
+}
+
+/* ═══ Desire ─ 桃红暗底光晕 ═══ */
+body[data-mood-skin='desire'] {
+  --bg: #1a0f14;
+  --bg-secondary: #20151a;
+  --bg-tertiary: #281c22;
+  --warm-bg: #1c1016;
+  --warm-bg-secondary: #241820;
+  --warm-text: #f0d8e2;
+  --warm-text-secondary: #d8b8c8;
+  --warm-accent: #e8789a;
+  --warm-accent-muted: rgba(232, 120, 154, 0.20);
+  --warm-border: rgba(220, 100, 140, 0.28);
+  --cool-bg: #141016;
+  --cool-bg-secondary: #1c1820;
+  --cool-text: #e0d0d8;
+  --cool-text-secondary: #b0a0a8;
+  --cool-accent: #d87090;
+  --cool-accent-muted: rgba(216, 112, 144, 0.16);
+  --cool-border: rgba(200, 90, 130, 0.24);
+  --card-bg: #1e1418;
+  --card-shadow: 0 1px 6px rgba(232, 120, 154, 0.14);
+  --bubble-assistant-bg: #241820;
+  --bubble-assistant-border: rgba(232, 120, 154, 0.30);
+  --bubble-user-bg: #22161c;
+  --bubble-user-border: rgba(220, 100, 140, 0.26);
+}
+
+/* ═══ Vuoto ─ 纯黑白极简 ═══ */
+body[data-mood-skin='vuoto'] {
+  --bg: #fafafa;
+  --bg-secondary: #f2f2f2;
+  --bg-tertiary: #e8e8e8;
+  --warm-bg: #fafafa;
+  --warm-bg-secondary: #f0f0f0;
+  --warm-text: #000000;
+  --warm-text-secondary: #333333;
+  --warm-accent: #000000;
+  --warm-accent-muted: rgba(0, 0, 0, 0.06);
+  --warm-border: rgba(0, 0, 0, 0.12);
+  --cool-bg: #f8f8f8;
+  --cool-bg-secondary: #eeeeee;
+  --cool-text: #111111;
+  --cool-text-secondary: #444444;
+  --cool-accent: #1a1a1a;
+  --cool-accent-muted: rgba(0, 0, 0, 0.05);
+  --cool-border: rgba(0, 0, 0, 0.10);
+  --card-bg: #ffffff;
+  --card-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  --bubble-assistant-bg: #f5f5f5;
+  --bubble-assistant-border: rgba(0, 0, 0, 0.14);
+  --bubble-user-bg: #f0f0f0;
+  --bubble-user-border: rgba(0, 0, 0, 0.10);
+}
+
+/* ═══ Moonlight ─ 深蓝金 ═══ */
+body[data-mood-skin='moonlight'] {
+  --bg: #0b1020;
+  --bg-secondary: #111a32;
+  --bg-tertiary: #182444;
+  --warm-bg: #0d1224;
+  --warm-bg-secondary: #141c36;
+  --warm-text: #e8e0d0;
+  --warm-text-secondary: #c8b898;
+  --warm-accent: #d3ad66;
+  --warm-accent-muted: rgba(211, 173, 102, 0.18);
+  --warm-border: rgba(190, 150, 80, 0.26);
+  --cool-bg: #0e1328;
+  --cool-bg-secondary: #161e3a;
+  --cool-text: #d8d8e8;
+  --cool-text-secondary: #a8a8c0;
+  --cool-accent: #c0a060;
+  --cool-accent-muted: rgba(192, 160, 96, 0.14);
+  --cool-border: rgba(170, 140, 70, 0.22);
+  --card-bg: #141c34;
+  --card-shadow: 0 1px 6px rgba(211, 173, 102, 0.10);
+  --bubble-assistant-bg: #182040;
+  --bubble-assistant-border: rgba(211, 173, 102, 0.28);
+  --bubble-user-bg: #161e38;
+  --bubble-user-border: rgba(190, 150, 80, 0.24);
+}
+
+/* ═══ Serenity ─ 薄荷浅绿 ═══ */
+body[data-mood-skin='serenity'] {
+  --bg: #f4f8f6;
+  --bg-secondary: #e8f0ea;
+  --bg-tertiary: #dce8e0;
+  --warm-bg: #f6faf8;
+  --warm-bg-secondary: #ecf4ee;
+  --warm-text: #1a2a1f;
+  --warm-text-secondary: #3a4a3f;
+  --warm-accent: #2d6a4f;
+  --warm-accent-muted: rgba(45, 106, 79, 0.10);
+  --warm-border: rgba(40, 90, 70, 0.16);
+  --cool-bg: #f2f6f4;
+  --cool-bg-secondary: #e6eee8;
+  --cool-text: #1e2e24;
+  --cool-text-secondary: #3e4e44;
+  --cool-accent: #3a7858;
+  --cool-accent-muted: rgba(58, 120, 88, 0.08);
+  --cool-border: rgba(45, 100, 75, 0.14);
+  --card-bg: #ffffff;
+  --card-shadow: 0 1px 4px rgba(45, 106, 79, 0.06);
+  --bubble-assistant-bg: #eef6f0;
+  --bubble-assistant-border: rgba(45, 106, 79, 0.18);
+  --bubble-user-bg: #f0f8f2;
+  --bubble-user-border: rgba(40, 90, 70, 0.14);
+}
