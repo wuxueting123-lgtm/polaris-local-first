@@ -30,7 +30,7 @@ const POLARIS_FREE_PROVIDER_MODELS = [
   'Pro/MiniMaxAI/MiniMax-M2.5'
 ] as const;
 const DAILY_LIMIT = resolveFreeProviderDailyLimit(process.env);
-const DEFAULT_MODEL = 'mimo-v2.5-pro';
+const DEFAULT_MODEL = 'deepseek-ai/DeepSeek-V3';
 const rateLimitStore = createFreeProviderRateLimitStore(process.env);
 
 function applyCors(req: VercelRequest, res: VercelResponse) {
