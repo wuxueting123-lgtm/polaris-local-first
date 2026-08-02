@@ -12,7 +12,6 @@ import './app/bootstrap/nativeShellBootstrap';
 import './styles/tokens.css';
 import './styles/base.css';
 
-typescript
 import { initMoodSkinObserver } from './stores/moodSkinStore';
 
 installGlobalClientErrorLogging();
